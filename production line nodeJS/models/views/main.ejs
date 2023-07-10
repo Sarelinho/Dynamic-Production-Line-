@@ -1,0 +1,17 @@
+<%- include ("header.ejs") %>
+
+    <main>
+            <div id="addform">
+                <form action="" method="post">
+                    <label for="time">הכנס זמן:</label>
+                    <input type="text" name="time" id="time" value="<%= item.time %>" />
+                    <br>
+                    <button>save</button>
+                    <button>edit</button>
+                </form>
+            </div>
+
+    </main>
+
+
+    <%- include ("footer.ejs") %>
